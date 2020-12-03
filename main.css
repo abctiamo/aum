@@ -1,0 +1,136 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 180px;
+}
+#webInfoBar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+#webInfoBar #logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#webInfoBar #title{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 40px;
+}
+
+#navigationBar{
+    height: 60px;
+    display: flex;
+}
+#navigationBar .navigationBtn{
+    background-color: #aaa;
+    height: 60px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+#navigationBar .navigationBtn:hover{
+    background-color: #777;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+main{
+    height: 500px;
+}
+main .page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.page .halfPage{
+    width: 50%;
+    height: 50;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+.halfPage h2{
+    margin:20px 10px;
+}
+.halfPage h3{
+    margin:20px 20px;
+}
+.halfPage div{
+    text-indent: 2rem;
+    margin: 20px 0;
+}
+footer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    border-top: 1px solid #777;
+}
+
+/* 表格样式 */
+h1 {
+	color: blue; 
+	font-size: 140%;
+}
+h2 {
+	font-size: 115%;
+	/* padding: .5em 0; */
+}
+label {
+	color: blue;
+	float: left;
+	width: 8em;
+	font-weight: bold;
+	text-align: left;
+}
+input {
+	width: 15em;
+}
+#button, #reset {
+    background-color: silver;
+}
+input[type="checkbox"] {
+    width: 13px;
+}
+
+.line{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.line p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#gpa{
+    font-size: 40px;
+    margin-top: 50px;
+    margin: 0 auto;
+    color:rgb(0, 102, 255);
+    font-weight: bold;
+}
+
+#calculateBtn{
+    margin: 30px auto;
+    height: 90px;
+    width: 160px;
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+}
